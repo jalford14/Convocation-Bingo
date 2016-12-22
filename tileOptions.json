@@ -1,0 +1,139 @@
+// fetch('http://aclj.org/iphone/radio/featured')
+// .then((response) => {
+//     response = JSON.parse(response._bodyText)
+//     this.setState({
+//         radio: response,
+//         loaded: true,
+//     }, () => {
+//         this.initializeRadio();
+//         this.setTimeout(()=>{this.loadRadio()},this.state.radio.ttl+5000); //adding a 5 second buffer so our server doesn't get bombarded right as cache expires
+//     });
+// }).done();
+
+
+[
+    {
+        "key": "FREE SPACE!",
+        "def": "FREE SPACE!"
+    },
+    {
+        "key": "Microphone Shake Weight",
+        "def": "When David Nasser walks out after worship and shakes the microphone"
+    },
+    {
+        "key": "He's a Pastor (Pastor of Pastors)",
+        "def": "When this is spoken by David Nasser"
+    },
+    {
+        "key": "Hey Look at Me",
+        "def": "When this is spoken by David Nasser"
+    },
+    {
+        "key": "Air War Ground War",
+        "def": "When this is spoken by David Nasser"
+    },
+    {
+        "key": "Not just Hearers, but Doers",
+        "def": "When this is spoken by David Nasser"
+    },
+    {
+        "key": "Can we Pray?",
+        "def": "When this is spoken by David Nasser"
+    },
+    {
+        "key": "Bigger Levels, Bigger Devils",
+        "def": "When this is spoken by David Nasser"
+    },
+    {
+        "key": "Pastor's Heart",
+        "def": "When this is spoken by David Nasser"
+    },
+    {
+        "key": "Iranian",
+        "def": "When David Nasser mentions his Iranian heritage"
+    },
+    {
+        "key": "Book Down Front",
+        "def": "When today's speaker has a table down front with their books"
+    },
+    {
+        "key": "Hey Real Quick",
+        "def": "When this is spoken by David Nasser"
+    },
+    {
+        "key": "Hurt People Hurt People",
+        "def": "When this is spoken by David Nasser"
+    },
+    {
+        "key": "The Local Church",
+        "def": "When this is spoken by David Nasser"
+    },
+    {
+        "key": "We will be in Galatians this week",
+        "def": "When this is spoken by David Nasser"
+    },
+    {
+        "key": "Let's Champion This Today",
+        "def": "When this is spoken by David Nasser"
+    },
+    {
+        "key": "Two Corinthians",
+        "def": "When anyone references Trump's two Corinthians quote"
+    },
+    {
+        "key": "JEERRRYYYY",
+        "def": "When the crowd yells JEEERRRYYYYY"
+    },
+    {
+        "key": "Musical Guest",
+        "def": "When a guest artist or band leads worship or performs a special song."
+    },
+    {
+        "key": "The Triple Throne",
+        "def": "When 3 or more comfy chairs are on stage for VIPs"
+    },
+    {
+        "key": "Pull It Out",
+        "def": "When the speaker asks everyone to pull out their phone"
+    },
+    {
+        "key": "Best Friend",
+        "def": "When the speaker mentions that David Nasser is one of their best friends"
+    },
+    {
+        "key": "Home State",
+        "def": "When your home state is given a shout-out"
+    },
+    {
+        "key": "What Up Gill",
+        "def": "Coach Gill is in the house to invite everyone to the football game"
+    },
+    {
+        "key": "CFAW",
+        "def": "Convo has been infested..."
+    },
+    {
+        "key": "Sleeper",
+        "def": "When someone in your row falls asleep"
+    },
+    {
+        "key": "Traditional Stage",
+        "def": "Just like the good old days..."
+    },
+    {
+        "key": "Skinny Jeans",
+        "def": "David Nasser is wearing skinny jeans (is this a free space)"
+    },
+    {
+        "key": "LU Send",
+        "def": "LU Send is promoted or a recent trip is summarized"
+    },
+    {
+        "key": "The Family",
+        "def": "When the camera pans to view the speakers family"
+    },
+    {
+        "key": "Rows To Circles",
+        "def": "When this is spoken by David Nasser",
+    }
+];
