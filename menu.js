@@ -19,7 +19,7 @@ var Help = require('./help.js');
 var Contact = require('./contact.js');
 var MenuBackground = require('./images/menu-background.png')
 
-var boardSelect = require('./boardSelect.js');
+// var boardSelect = require('./boardSelect.js');
 
 var sequence = Animated.sequence;
 var timing = Animated.timing;
@@ -113,7 +113,8 @@ class Menu extends Component {
     // clearInterval(this.bounceInterval)
     // clearInterval(this.colorInterval)
     this.props.navigator.push({
-        component: boardSelect,
+        /*component: boardSelect,*/
+        component: Bingo,
       });
   }
   definitions(){

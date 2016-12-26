@@ -12,7 +12,6 @@ import {
 
 var deviceWidth = require('Dimensions').get('window').width;
 var deviceHeight = require('Dimensions').get('window').height;
-test
 var Bingo = require('./bingo.js');
 var LoadingView = require('./loadingView.js');
 

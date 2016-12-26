@@ -29,7 +29,8 @@ var Help = require('./help.js');
 var TileDefinitions = require('./tileDefinitions.js');
 var Styles = require('./styles.js');
 
-var tileOptions;
+// var tileOptions;
+var tileOptions = require('./tileOptions.json')
 var tileOptionsCount;
 
 var timing = Animated.timing;
@@ -67,7 +68,8 @@ class Bingo extends Component {
     super(props);
     _this = this;
 
-    tileOptions = this.props.tiles.data;
+    // tileOptions = this.props.tiles.data;
+    tileOptions = tileOptions;
     tileOptionsCount = tileOptions.length;
     
     for(var i = 0; i < 25; i++){
